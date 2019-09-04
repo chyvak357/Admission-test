@@ -249,7 +249,8 @@ def logger_creator():
 
 if __name__ == "__main__":
     log = logger_creator()
-    test_thread = TestGenerator('test')
+#     Uncommit this lines to run the test
+#     test_thread = TestGenerator('test')
     main_thread = JsonChecker('main')
-    test_thread.start()
+#     test_thread.start()
     main_thread.start()
