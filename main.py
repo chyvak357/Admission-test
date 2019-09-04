@@ -1,3 +1,4 @@
+# UTF-8, Python 3.6.2
 from ftplib import FTP
 from threading import Thread
 import json
